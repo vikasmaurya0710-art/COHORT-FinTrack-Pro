@@ -273,6 +273,7 @@ hero.querySelector(".layer").addEventListener("click", () => {
           localStorage.setItem(`transactions_${recentUser.name}`,JSON.stringify(transactions))
           showTransactions()
           changeAmount()
+          updateCashFlow(0, 0)
          }
   })
 
